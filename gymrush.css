@@ -114,3 +114,83 @@ button.gr-sec-1-button{
 	left: 612px;
 	position: absolute;
 }
+
+.gr-sec-2{
+	background-image: url("gr-sec-2.png");
+	background-size: cover;
+	height: 1036px;
+    padding-left: 15px;
+    margin-left: -15px;
+    position: relative;
+}
+.gr-sec-2-text{
+	top: 180px;
+	left: 148px;
+	width: 532px;
+	position: absolute;
+}
+
+.gr-sec-2-text-1{
+	/* Trainers and Instruc: */
+	font-family: Montserrat-Bold;
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 3px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+.gr-sec-2-text-2{
+	/* We’re crafting an ex: */
+	font-family: Montserrat-Bold;
+	font-size: 40px;
+	color: #EB505C;
+	letter-spacing: 4px;
+	line-height: 48px;
+	text-transform: uppercase;
+	padding-top: 32px;
+}
+.gr-sec-2-text-3{
+	/* Engineered to exist: */
+	font-family: NunitoSans-Regular;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 0.4px;
+	line-height: 32px;
+	padding-top: 32px;
+}
+div.gr-sec-2-button{
+	left: 148px;
+	padding-top: 56px;
+}
+button.gr-sec-2-button{
+	background: #EB505C;
+	border: 4px solid #EB505C;
+	box-shadow: 0 16px 32px 0 rgba(0,0,0,0.16);
+	border-radius: 3px;
+	/* 19:32: */
+	font-family: Montserrat-Bold;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 3px;
+	line-height: 18px;
+	width: 320px;
+	height: 56px;
+	text-shadow: none;
+}
+.gr-sec-2-grp{
+	width:492px;
+}
+div.gr-sec-2-text-4{
+	/* Help build the futur: */
+	font-family: NunitoSans-Regular;
+	font-size: 14px;
+	color: #EB505C;
+	letter-spacing: 0;
+	line-height: 24px;
+	padding-top: 56px;
+}
+p.gr-sec-2-text-4{
+    width: 434px;
+    float: right;
+}
