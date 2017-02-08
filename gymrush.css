@@ -570,3 +570,28 @@ button.gr-sec-6-button{
 	height: 56px;
 	text-shadow: none;
 }
+
+.gr-sec-7{
+	height: 95px;
+    padding-left: 15px;
+    margin-left: -15px;
+    padding-right: 15px;
+    margin-right: -15px;
+	text-align: center;
+}
+.gr-sec-7-cr{
+	font-family: NunitoSans-Regular;
+	font-size: 14px;
+	color: #878788;
+	letter-spacing: 0.4px;
+	line-height: 20px;
+	padding: 20px;
+}
+.gr-sec-7-txt{
+	font-family: NunitoSans-Regular;
+	font-size: 14px;
+	color: #2B364E;
+	letter-spacing: 0.4px;
+	line-height: 20px;
+	padding: 20px;
+}
