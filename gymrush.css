@@ -504,3 +504,69 @@ button.gr-sec-5-button{
     position: relative;
     padding-top: 477px;
 }
+.gr-sec-6{
+	background-image: url("gr-sec-6.png");
+	background-size: cover;
+	height: 952px;
+    padding-left: 15px;
+    margin-left: -15px;
+    padding-right: 15px;
+    margin-right: -15px;
+    position: relative;
+}
+.gr-sec-6-text{
+    width: 885px;
+	margin: 0 auto;
+    position: relative;
+    padding-top: 182px;
+}
+.gr-sec-6-frm{
+	background: #FFFFFF;
+	box-shadow: 0 64px 64px 0 rgba(55,65,89,0.08);
+	padding: 15px 64px 64px 64px;
+	width: 608px;
+	height: 386px;
+	margin: 0 auto;
+    position: relative;
+}
+.gr-frm-lbl{
+	font-family: NunitoSans-Regular;
+	font-size: 12px;
+	color: #2B364E;
+	letter-spacing: 0.4px;
+	line-height: 18px;
+	padding: 18px 0 0 0;
+}
+.gr-frm-fld{
+	font-family: NunitoSans-Regular;
+	font-size: 32px;
+	color: #C9C8C9;
+	letter-spacing: 0;
+	line-height: 32px;
+	border-width: 0;
+	height: 42px;
+}
+.gr-line{
+	border-bottom: 1px solid #C9C8C9;
+	padding: 49px 0 0 0;
+	margin: 0;
+}
+div.gr-sec-6-button{
+	padding-top: 52px;
+	text-align: center;
+}
+button.gr-sec-6-button{
+	background: #EB505C;
+	border: 4px solid #EB505C;
+	box-shadow: 0 16px 32px 0 rgba(0,0,0,0.16);
+	border-radius: 3px;
+	font-family: Montserrat-Bold;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 3px;
+	line-height: 18px;
+	width: 480px;
+	height: 56px;
+	text-shadow: none;
+}
