@@ -504,6 +504,9 @@ button.gr-sec-5-button{
     position: relative;
     padding-top: 477px;
 }
+.gr-sec-5-fb-txt-3 a{
+	color: #fff;
+}
 .gr-sec-6{
 	background-image: url("gr-sec-6.png");
 	background-size: cover;
