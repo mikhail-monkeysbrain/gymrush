@@ -18,7 +18,7 @@ body {
     width: 1170px;
 }
 }
-@media screen and (min-width: 1470px){
+@media screen and (min-width: 1440px){
 .container {
     width: 1440px;
 }
@@ -61,6 +61,8 @@ body {
 	height: 888px;
     padding-left: 15px;
     margin-left: -15px;
+    padding-right: 15px;
+    margin-right: -15px;
     position: relative;
 }
 .gr-sec-1-header{
@@ -121,6 +123,8 @@ button.gr-sec-1-button{
 	height: 1036px;
     padding-left: 15px;
     margin-left: -15px;
+    padding-right: 15px;
+    margin-right: -15px;
     position: relative;
 }
 .gr-sec-2-text{
@@ -201,6 +205,8 @@ p.gr-sec-2-text-4{
 	height: 966px;
     padding-left: 15px;
     margin-left: -15px;
+    padding-right: 15px;
+    margin-right: -15px;
     position: relative;
 }
 .gr-sec-3-text{
@@ -251,4 +257,67 @@ button.gr-sec-3-button{
 	height: 56px;
 	text-transform: uppercase;
 	text-shadow: none;
+}
+
+.gr-sec-4{
+	background-color: #f2f1f1;
+	height: 1978px;
+    padding-left: 15px;
+    margin-left: -15px;
+    padding-right: 15px;
+    margin-right: -15px;
+    position: relative;
+}
+.gr-sec-4-text{
+    width: 526px;
+	margin: 0 auto;
+    position: relative;
+    padding-top: 180px;
+}
+.gr-sec-4-text-1{
+	/* Together, the perfec: */
+	font-family: Montserrat-Bold;
+	font-size: 12px;
+	color: #2B364E;
+	letter-spacing: 3px;
+	line-height: 18px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.gr-sec-4-text-2{
+	/* RushPro + RushLive: */
+	font-family: Montserrat-Bold;
+	font-size: 40px;
+	color: #EB505C;
+	letter-spacing: 4px;
+	line-height: 48px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 24px;
+}
+.gr-sec-4-text-3{
+	/* Both Trainer and Tra: */
+	font-family: NunitoSans-Regular;
+	font-size: 18px;
+	color: #042B2B;
+	letter-spacing: 0;
+	line-height: 32px;
+	text-align: center;
+	padding-top: 24px;
+}
+
+.gr-sec-4-phones{
+	top: 559px;
+	left: 400px;
+	position: absolute;
+}
+.gr-sec-4-trainer{
+	top: 218px;
+	left: 0px;
+	position: absolute;
+}
+.gr-sec-4-trainee{
+	top: 285px;
+	right: 0px;
+	position: absolute;
 }
