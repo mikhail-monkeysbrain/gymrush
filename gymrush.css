@@ -540,7 +540,7 @@ button.gr-sec-5-button{
 	line-height: 18px;
 	padding: 18px 0 0 0;
 }
-.gr-frm-fld{
+.gr-frm-fld, .gr-frm-fld:focus{
 	font-family: NunitoSans-Regular;
 	font-size: 32px;
 	color: #C9C8C9;
@@ -548,6 +548,7 @@ button.gr-sec-5-button{
 	line-height: 32px;
 	border-width: 0;
 	height: 42px;
+	box-shadow: none;
 }
 .gr-line{
 	border-bottom: 1px solid #C9C8C9;
@@ -576,6 +577,7 @@ button.gr-sec-6-button{
 
 .gr-sec-7{
 	height: 95px;
+	padding-top: 40px;
     padding-left: 15px;
     margin-left: -15px;
     padding-right: 15px;
