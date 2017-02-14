@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="1440px" height="888px" viewBox="0 0 1440 888" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>Banner</title>
+    <title>Group</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <rect id="path-1" x="0" y="0" width="1440" height="888"></rect>
@@ -21,31 +21,31 @@
             <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
             <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
         </linearGradient>
-        <path d="M232,192.195093 C178.926791,245.268302 92.8781165,245.268302 39.8049071,192.195093 C-13.2683024,139.121884 -13.2683024,53.0732094 39.8049071,0 L232,192.195093 Z" id="path-8"></path>
+        <path d="M96,79.529004 C74.038672,101.490332 38.4323241,101.490332 16.470996,79.529004 C-5.49033201,57.5676759 -5.49033201,21.961328 16.470996,0 L96,79.529004 Z" id="path-8"></path>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-9">
             <feOffset dx="0" dy="32" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.168627451   0 0 0 0 0.211764706   0 0 0 0 0.305882353  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <path d="M120,99.411255 C92.54834,126.862915 48.0404051,126.862915 20.588745,99.411255 C-6.86291501,71.9595949 -6.86291501,27.45166 20.588745,0 L120,99.411255 Z" id="path-10"></path>
+        <path d="M184,152.430591 C141.907455,194.523136 73.6619544,194.523136 31.569409,152.430591 C-10.5231363,110.338046 -10.5231363,42.0925454 31.569409,0 L184,152.430591 Z" id="path-10"></path>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-11">
             <feOffset dx="0" dy="32" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.168627451   0 0 0 0 0.211764706   0 0 0 0 0.305882353  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <path d="M72,59.646753 C55.529004,76.117749 28.824243,76.117749 12.353247,59.646753 C-4.11774901,43.175757 -4.11774901,16.470996 12.353247,0 L72,59.646753 Z" id="path-12"></path>
+        <path d="M48,39.764502 C37.019336,50.745166 19.216162,50.745166 8.23549801,39.764502 C-2.745166,28.783838 -2.745166,10.980664 8.23549801,0 L48,39.764502 Z" id="path-12"></path>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-13">
             <feOffset dx="0" dy="32" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.168627451   0 0 0 0 0.211764706   0 0 0 0 0.305882353  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <path d="M96,79.529004 C74.038672,101.490332 38.4323241,101.490332 16.470996,79.529004 C-5.49033201,57.5676759 -5.49033201,21.961328 16.470996,0 L96,79.529004 Z" id="path-14"></path>
+        <path d="M112,92.783838 C86.3784506,118.405387 44.8377114,118.405387 19.216162,92.783838 C-6.40538734,67.1622886 -6.40538734,25.6215494 19.216162,0 L112,92.783838 Z" id="path-14"></path>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-15">
             <feOffset dx="0" dy="32" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.168627451   0 0 0 0 0.211764706   0 0 0 0 0.305882353  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <path d="M79.529004,96 C101.490332,74.038672 101.490332,38.4323241 79.529004,16.470996 C57.5676759,-5.49033201 21.961328,-5.49033201 0,16.470996 L79.529004,96 Z" id="path-16"></path>
+        <path d="M205.449927,248 C262.183358,191.266569 262.183358,99.2835038 205.449927,42.5500731 C148.716496,-14.1833577 56.7334307,-14.1833577 0,42.5500731 L205.449927,248 Z" id="path-16"></path>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-17">
             <feOffset dx="0" dy="32" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
@@ -57,16 +57,16 @@
             <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.168627451   0 0 0 0 0.211764706   0 0 0 0 0.305882353  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <path d="M19.216162,112 C-6.40538734,86.3784506 -6.40538734,44.8377114 19.216162,19.216162 C44.8377114,-6.40538734 86.3784506,-6.40538734 112,19.216162 L19.216162,112 Z" id="path-21"></path>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-23">
+        <path d="M1.42108547e-14,86.156421 C23.7914387,109.94786 62.3649823,109.94786 86.156421,86.156421 C109.94786,62.3649823 109.94786,23.7914387 86.156421,-7.10542736e-15 L1.42108547e-14,86.156421 Z" id="path-21"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-22">
             <feOffset dx="0" dy="32" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.168627451   0 0 0 0 0.211764706   0 0 0 0 0.305882353  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
     </defs>
     <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="DSK-GymRush-land-v2">
-            <g id="Banner">
+        <g id="DSK-RushPro-land-v2">
+            <g id="Group">
                 <mask id="mask-2" fill="white">
                     <use xlink:href="#path-1"></use>
                 </mask>
@@ -80,8 +80,8 @@
                     <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
                 </g>
                 <g id="Img-half_circle_1_lfu" mask="url(#mask-2)">
-                    <g transform="translate(1194.000000, 148.000000)" id="Oval-2">
-                        <g transform="translate(116.000000, 116.000000) scale(-1, 1) translate(-116.000000, -116.000000) ">
+                    <g transform="translate(1100.000000, 22.000000)" id="Oval-2">
+                        <g transform="translate(48.000000, 48.000000) scale(-1, 1) translate(-48.000000, -48.000000) ">
                             <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
                             <use fill="#EB505C" fill-rule="evenodd" xlink:href="#path-8"></use>
                             <use fill="url(#linearGradient-7)" fill-rule="evenodd" style="mix-blend-mode: luminosity;" xlink:href="#path-8"></use>
@@ -89,7 +89,7 @@
                     </g>
                 </g>
                 <g id="Img-half_circle_1_rfu" mask="url(#mask-2)">
-                    <g transform="translate(750.000000, 577.000000)" id="Oval-2">
+                    <g transform="translate(1128.000000, 585.000000)" id="Oval-2">
                         <g>
                             <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
                             <use fill="#EB505C" fill-rule="evenodd" xlink:href="#path-10"></use>
@@ -98,8 +98,8 @@
                     </g>
                 </g>
                 <g id="Img-half_circle_1_lfu" mask="url(#mask-2)">
-                    <g transform="translate(-34.000000, 466.000000)" id="Oval-2">
-                        <g transform="translate(36.000000, 36.000000) scale(-1, 1) translate(-36.000000, -36.000000) ">
+                    <g transform="translate(48.000000, 442.000000)" id="Oval-2">
+                        <g transform="translate(24.000000, 24.000000) scale(-1, 1) translate(-24.000000, -24.000000) ">
                             <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-12"></use>
                             <use fill="#EB505C" fill-rule="evenodd" xlink:href="#path-12"></use>
                             <use fill="url(#linearGradient-7)" fill-rule="evenodd" style="mix-blend-mode: luminosity;" xlink:href="#path-12"></use>
@@ -107,7 +107,7 @@
                     </g>
                 </g>
                 <g id="Img-half_circle_1_rfu" mask="url(#mask-2)">
-                    <g transform="translate(129.000000, 22.000000)" id="Oval-2">
+                    <g transform="translate(227.000000, 38.000000)" id="Oval-2">
                         <g>
                             <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-14"></use>
                             <use fill="#EB505C" fill-rule="evenodd" xlink:href="#path-14"></use>
@@ -116,7 +116,7 @@
                     </g>
                 </g>
                 <g id="Img-half_circle_2_lfd" mask="url(#mask-2)">
-                    <g transform="translate(1229.000000, 576.000000)" id="Oval-2">
+                    <g transform="translate(1216.000000, 190.000000)" id="Oval-2">
                         <g>
                             <use fill="black" fill-opacity="1" filter="url(#filter-17)" xlink:href="#path-16"></use>
                             <use fill="#2B364E" fill-rule="evenodd" xlink:href="#path-16"></use>
@@ -125,7 +125,7 @@
                     </g>
                 </g>
                 <g id="Img-half_circle_2_rfd" mask="url(#mask-2)">
-                    <g transform="translate(46.000000, 231.000000)">
+                    <g transform="translate(80.000000, 231.000000)">
                         <mask id="mask-19" fill="white">
                             <use xlink:href="#path-18"></use>
                         </mask>
@@ -136,13 +136,10 @@
                         </g>
                     </g>
                 </g>
-                <g id="Img-half_circle_2_rfd" mask="url(#mask-2)">
-                    <g transform="translate(794.000000, 21.000000)">
-                        <mask id="mask-22" fill="white">
-                            <use xlink:href="#path-21"></use>
-                        </mask>
-                        <g id="Mask" stroke="none" fill="none">
-                            <use fill="black" fill-opacity="1" filter="url(#filter-23)" xlink:href="#path-21"></use>
+                <g id="Img-half_circle_2_lfu" mask="url(#mask-2)">
+                    <g transform="translate(173.000000, 591.000000)" id="Oval-2">
+                        <g>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-22)" xlink:href="#path-21"></use>
                             <use fill="#2B364E" fill-rule="evenodd" xlink:href="#path-21"></use>
                             <use fill="url(#linearGradient-7)" fill-rule="evenodd" style="mix-blend-mode: luminosity;" xlink:href="#path-21"></use>
                         </g>
