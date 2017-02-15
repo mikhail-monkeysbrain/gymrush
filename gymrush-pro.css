@@ -506,6 +506,15 @@ button.gr-sec-5-button{
 	margin: 0 auto;
     position: relative;
 }
+.gr-sec-6-text-1{
+	font-family: Montserrat-Bold;
+	font-size: 12px;
+	color: #2B364E;
+	letter-spacing: 3px;
+	line-height: 18px;
+	text-transform: uppercase;
+	text-align: center;
+}
 .gr-sec-6-text-2{
 	font-family: Montserrat-Bold;
 	font-size: 40px;
