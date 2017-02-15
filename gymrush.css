@@ -128,11 +128,10 @@ body {
     position: relative;
 }
 .gr-sec-1-header{
-/* Fitness that works f: */
 	font-family: Montserrat-Bold;
 	font-size: 64px;
 	color: #2B364E;
-	letter-spacing: 4px;
+	letter-spacing: 2px;
 	line-height: 72px;
 	text-transform: uppercase;
 	top: 268px;
@@ -162,8 +161,8 @@ button.gr-sec-1-button{
 	height: 56px;
 }
 .gr-sec-1-img{
-	top: 76px;
-	left: 612px;
+	top: 28px;
+	right: 102px;
 	position: absolute;
 }
 
