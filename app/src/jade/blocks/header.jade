@@ -1,0 +1,30 @@
+doctype html
+head
+  meta(charset="utf-8")
+  title gymrush
+  link(rel='stylesheet', href='css/reset.css')
+  link(rel='stylesheet', href='css/style.css')
+  script(src='assets/picturefill.min.js' async)
+  script.
+    document.createElement("picture");
+body
+  header
+    nav.navbar
+      a(href="#top").logo.logo-mobile
+        img(src="img/gr-logo.svg", alt="gymrush")
+        span.mobile
+      ul.top-nav.nav__mobile
+        li.top-nav--item
+          a(href="#trainer") Trainers
+        li.top-nav--item.comming_soon
+          a(href="#trainees") Traineers
+          span.comming_soon__icon COMING SOON
+        li.top-nav--item
+          a(href="#faq") Faq
+        li.top-nav--item
+          a(href="#support") Support
+        li.top-nav--item
+          a(href="javascript://", data-opf-trigger="p2c116229f4", data-opf-trigger-guid="OPF_4416f76d-e1bb-e2f2-3103-40ca4c6b53c4") Sign-Up for Beta
+      button.btn.btn__red.mobile Sign-Up for Beta
+
+  block content

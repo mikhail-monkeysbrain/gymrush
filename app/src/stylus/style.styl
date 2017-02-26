@@ -1,0 +1,616 @@
+@import "http://webfonts.ru/import/montserrat.css"
+@import "http://webfonts.ru/import/nunitosans.css"
+@import "include/var"
+@import "include/helpers"
+
+html
+  font-size 1vw
+
+body
+	font-size 2rem
+	font-family: 'Montserrat'
+
+h1
+	font-size 4.5rem
+	color main-color
+	padding 2rem 0
+	font-weight 700
+
+h2
+	font-size: 2.4rem
+	color: red
+	letter-spacing: 0.3rem
+	font-weight 700
+	text-transform: uppercase
+	padding: 2rem 0
+	
+h3
+	font-size: 1.8rem
+	color: red
+	letter-spacing: 0.1rem
+	font-weight 700
+	padding: 0 0 2rem
+
+a
+	text-decoration none
+	color main-color
+	&:visited
+		color main-color
+
+p
+	font-family: 'Nunito Sans'
+	font-size 1.3rem
+	line-height 1.5
+	font-weight 400
+	color main-color
+	font-weight 600
+	
+.btn
+	color #fff
+	font-size: .9rem
+	border 0
+	border-radius 3px
+	text-transform uppercase
+	margin 3rem 0
+	padding 1.6rem 3rem
+	outline none
+	letter-spacing: 0.15rem
+	cursor pointer
+	transition animation
+	&__red
+		background red
+		&:hover
+			background red-hover
+	&__transparent
+		background transparent
+		color gray
+		border 1px solid
+		&:hover
+			background: gray
+			color #fff
+	&__full
+		width 100%
+
+article
+	position relative
+	&.white
+		width: 65%
+		height: auto
+		background: #fff
+		position: absolute
+		right: 0
+		top: 40vh
+		box-shadow 0 0 5rem 0rem gray*1.5
+		padding 2rem 4rem
+
+header
+	background rgba(255,255,255, .9)
+	width 100%
+	position fixed
+	left 0
+	top 0
+	z-index 11
+
+.navbar
+	height 5.3rem
+	width 90%
+	padding 1rem
+	margin 0 auto
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	justify-content space-between
+	align-items baseline
+	
+.logo
+	align-self flex-end
+
+.top-nav, .bottom-nav
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	&--item
+		padding .7rem 2.1rem
+		font-size: .9rem
+		color: #2B364E
+		letter-spacing: 0.15rem
+		line-height: 2rem
+		text-transform: uppercase
+		cursor pointer
+		transition animation
+		&:nth-last-child(1)
+			border 1px solid transparent
+			a
+				color red
+			&:hover
+				border-color red
+		&:hover
+			a
+				color red
+			
+.wrapper
+	width 70%
+	margin 0 auto
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	align-items flex-end
+	justify-content space-between
+
+.block
+	min-height 120vh
+	height auto
+
+.intro
+	width 50%
+
+.section-1
+	background url('../img/gr-sec-1.png') 0 0 repeat fixed
+	padding-top 40vh
+	background-size cover
+
+.section-2
+	background: url('../img/gr-sec-2.png') bottom repeat-y fixed
+	background-size cover
+	
+.section-3, .section-8
+	background: url('../img/gr-sec-3.png') bottom repeat-y fixed
+	background-size cover
+
+.section-4
+	background-color transparent
+
+.section-5, .section-6, .section-7
+	background main-color
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	flex-direction column
+	align-items center
+	justify-content center
+	padding: 5rem 0
+	
+.section-6
+	background transparent
+	
+.section-7
+	background url('../img/gr-sec-1.png') 0 0 repeat fixed
+	background-size cover
+	.inner
+		width 70%
+		text-align center
+
+.section-8
+	height 100%
+	margin-bottom 30rem
+	section	
+		position relative
+		width 90%
+	.big-img
+		img
+			width 85%
+
+.section-9
+	background main-color
+	padding-top 20vh
+
+.top-section
+	position absolute
+	bottom 15vh
+.top-train
+	position relative
+	top 10vh
+	bottom 0
+	width 80%
+	margin-left 10%
+	text-align center
+
+.trains
+	position relative
+	&--about
+		width 100%
+		display -webkit-flex
+		display -moz-flex
+		display -ms-flex
+		display -o-flex
+		display flex
+		justify-content space-between
+		img
+			width 100%
+		&__left, &__right
+			width 30%
+			align-self bottom
+		&__content
+			width 40%
+	&--card
+		center(80%)
+		position absolute
+		left 10%
+		bottom 5rem
+	&--item
+		&--header
+			background #fff
+			padding 2rem
+			display -webkit-flex
+			display -moz-flex
+			display -ms-flex
+			display -o-flex
+			display flex
+			align-items center
+			.avatar
+				width 30%
+				border-radius 50%	
+				margin-right 2rem
+				flex-shrink 0
+			&--about
+				p
+					font-size 1rem
+		&--content
+			padding 2rem
+			background: main-color
+			display -webkit-flex
+			display -moz-flex
+			display -ms-flex
+			display -o-flex
+			display flex	
+			flex-wrap wrap
+			img
+				margin 1.5rem 35% 1rem
+				width 30% !important
+				float none !important
+			p
+				color #fff
+				text-align center
+				font-size .8rem
+
+.img
+	width 50%
+	min-height 120vh
+	position absolute
+	background url('../img/section-1.png') right bottom no-repeat
+	background-size contain
+	right 15%
+	top 0 
+	&__trainer
+		left 0
+		background url('../img/section-8.png') left bottom no-repeat
+		background-size contain
+	
+
+.section-header
+	@extend .top-nav--item
+	&__light
+		color #fff
+		cursor default
+		margin 0
+		padding 2rem 0
+		font-weight 600
+		&:hover
+			color #fff
+	&__dark
+		color main-color
+		cursor default
+		margin 0
+		padding 2rem 0
+		&:hover
+			color main-color
+	&__red
+		color red
+		cursor default
+		margin 0
+		padding 2rem 0
+
+.semi
+	width 50%
+	position relative
+	margin 5rem 0
+	&::after
+		content ""
+		clear both
+	&__left
+		float left
+		img
+			float left 
+			width 70%
+	&__right
+		float right
+		img
+			float right 
+			width 70%
+			
+.medium
+	width 48%
+	position relative
+	margin 5rem 0
+	&::after
+		content ""
+		clear both
+	&__left
+		float left
+		img
+			float left 
+			width 70%
+	&__right
+		float right
+		img
+			float right 
+			width 70%
+			
+.top-arrow
+	size(3rem, 3rem)
+	margin 0 auto
+	border-radius 50%
+		
+.description
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	flex-direction column
+	p
+		text-align center
+		font-size 1rem
+		font-weight 400 
+		
+.testers
+	width 80%
+	&--card
+		display -webkit-flex
+		display -moz-flex
+		display -ms-flex
+		display -o-flex
+		display flex
+		margin 7rem 0
+		p
+			color #fff
+			&.red
+				color red
+				font-size 1rem
+				margin-bottom 2rem
+		&--photo
+			width 33.33%
+			position relative
+			z-index 1
+			img
+				width 100%
+		&--description__left
+			padding 3rem 3rem	0 8rem
+			width 66.66%
+			background: support-color
+			margin 3rem 3rem -3rem -3rem
+			span
+				font-weight 600
+				background: red
+				padding .8rem 4.5rem .8rem .8rem
+				font-size .8rem
+				color main-color
+				text-transform uppercase
+			p
+				font-size 1.3rem
+				line-height 1.2
+		&--description__right
+			padding: 3rem 8rem 0rem 3rem
+			width: 66.66%
+			background: #1e2637
+			margin: 3rem -3rem -3rem 3rem
+			span
+				float right
+				text-align right
+				font-weight 600
+				background: red
+				padding .8rem .8rem .8rem 4.5rem
+				font-size .8rem
+				color main-color
+				text-transform uppercase
+			h3
+				text-align right
+			p
+				text-align right
+				font-size 1.3rem
+				line-height 1.2
+		&__left
+			margin-left 3rem
+		&__right
+			margin-right 3rem
+	h3
+		margin-top 2rem 
+		
+.faq
+	width 50%
+	ul
+		display -webkit-flex
+		display -moz-flex
+		display -ms-flex
+		display -o-flex
+		display flex
+		justify-content center
+		align-items center
+		width 70%
+		margin 0 auto
+		li
+			margin-bottom 2rem
+			a
+				text-transform uppercase
+				border-bottom .2rem solid transparent
+				color gray
+				transition animation
+				padding 1rem 2rem
+				font-size .8rem
+				font-weight 600
+				&.active
+					color red
+					border-color red
+				&:visited,
+				&:focus,
+				&:active
+					outline none
+	.accordeon 
+  border-top: none
+  margin: 10px 0
+  float: left
+  width: 100%
+  position: relative
+  color gray
+	a 
+  	display: block
+  	text-decoration: none
+	.answer 
+	  color: #555
+	  padding: 20px 10px
+	  margin-bottom: 10px
+	.ac_head
+		font-size 1rem
+		padding 1rem
+		cursor pointer
+	.ac_head::after
+	  content: '+'
+	  display: block
+	  width: 1rem
+	  height: 1rem
+	  float: right
+	  margin-top: 0
+	.ac_head.js_up::after
+	  content: '-' 
+	  
+.feedback
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	flex-direction column
+	width 50%
+	margin 4rem auto
+	padding 3rem 5rem
+	background #fff
+	box-shadow 0 0 5rem 0rem gray*1.5
+	input
+		color gray
+		padding 1rem .5rem
+		margin-bottom 2rem
+		border 0
+		border-bottom 2px solid
+		outline none
+		transition animation
+		&:hover
+			box-shadow -2px 5px 5px 0 gray*1.5
+	.btn
+		margin 0
+		border 0
+		color #fff
+		margin-top 2rem
+
+::-webkit-input-placeholder
+	color: gray
+	transition animation
+:-moz-placeholder
+	color: gray
+	transition animation
+:-ms-input-placeholder
+	color: gray
+	transition animation
+::-moz-placeholder
+	color: gray
+	transition animation
+:focus::-webkit-input-placeholder 
+	color: transparent
+:focus::-moz-placeholder          
+	color: transparent
+:focus:-moz-placeholder           
+	color: transparent
+:focus:-ms-input-placeholder      
+	color: transparent
+
+footer
+	width 80%
+	margin 0 auto
+	padding 10rem 0
+	hr
+		color gray
+	.navbar
+		width 100%
+.copy
+	text-align center
+	font-size 1rem
+	padding 2rem 0
+	a
+		padding 0 1rem
+		color support-color
+		font-weight 700
+.bottom-nav--item
+		&:nth-last-child(1)
+				background: red
+				transition animation
+				&:hover
+					background: #fff
+					a
+						color red
+				a
+					color #fff
+					transition animation
+.comming_soon
+	color lightgray
+	position relative
+	font-size .8rem
+	&__icon
+		width 12em
+		height 1.3rem
+		border 1px solid
+		position absolute
+		left 2rem
+		bottom -.1rem
+		border-radius .65rem
+		text-transform uppercase
+		font-size .5rem
+		text-align center
+		line-height 2.2
+.table
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	flex-direction column
+	margin 4rem 0
+	.row
+		font-size 1rem
+		color #fff
+		display -webkit-flex
+		display -moz-flex
+		display -ms-flex
+		display -o-flex
+		display flex
+		align-items center
+		.col
+			padding: 1.3rem
+			border: 1px solid
+			width: calc(100% - 6rem)
+			height: 6rem
+			&.ok
+				width 6rem
+				flex-shrink 0
+				img
+					border-radius: 50%
+					width: 75%
+					margin-top: 12.5%
+					margin-left: 12.5%
+			&.desc
+				flex-shrink 0
+				flex-grow 3
+				display -webkit-flex
+				display -moz-flex
+				display -ms-flex
+				display -o-flex
+				display flex
+				align-items center
+
+@import "include/media"

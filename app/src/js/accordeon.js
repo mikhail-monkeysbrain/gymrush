@@ -1,0 +1,9 @@
+//accordeon
+$(function(){
+	$('.accordeon-js').find('.ac_head').click(function(){
+    	$(this).next().stop().slideToggle();
+	}).next().stop().hide();
+	$('.ac_head').click(function(){
+    	$(this).toggleClass("js_up");
+	});
+});

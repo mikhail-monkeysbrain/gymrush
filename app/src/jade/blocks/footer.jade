@@ -1,0 +1,33 @@
+footer
+	nav.navbar
+		a(href="#top").logo
+			img(src="img/gr-logo.svg", alt="gymrush")
+		ul.bottom-nav
+			li.bottom-nav--item
+				a(href="#trainer") Trainers
+			li.bottom-nav--item.comming_soon
+				a(href="#trainees") Traineers
+					span.comming_soon__icon COMING SOON
+			li.bottom-nav--item
+				a(href="#faq") Faq
+			li.bottom-nav--item
+				a(href="#support") Support
+			li.bottom-nav--item
+				a(href="javascript://", data-opf-trigger="p2c116229f4", data-opf-trigger-guid="OPF_4416f76d-e1bb-e2f2-3103-40ca4c6b53c4") SIGN-UP FOR RUSHPRO BETA
+	hr
+	p.copy © 2017 GymRush, LLC. All rights reserved. 
+		a(href="#") Terms of Service 
+		a(href="#") Privacy Policy
+
+script(src='assets/jquery.min.js')
+script(src='assets/jquery-ui.min.js')
+script(src='js/main.js')
+script.
+	$(document).ready(function(){
+	$(".navbar").on("click","a", function (event) {
+	event.preventDefault();
+	var id  = $(this).attr('href'),
+	top = $(id).offset().top;
+	$('body,html').animate({scrollTop: top}, 1500);
+	});
+	});

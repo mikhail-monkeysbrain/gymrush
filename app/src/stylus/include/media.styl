@@ -1,0 +1,232 @@
+html
+  +media(1024px)
+    font-size 16px
+  +media(768px)
+    font-size 12px
+
+.mobile
+  display none
+  +media(1024px)
+    display block
+    
+.navbar
+  +media(480px)
+    width 100%
+
+.top-nav,
+.bottom-nav
+  +media(1024px)
+    flex-direction: column
+    background: #fff
+    position: fixed
+    width 100%
+    height calc(100% - 5.3rem)
+    top 5.3rem
+    left 0
+    display none
+.hide
+  +media(1024px)
+    display none
+header
+  +media(1024px)
+    background #fff !important
+    .btn
+      margin 0
+      padding: 1rem 2rem
+  +media(768px)
+    padding 0
+    .btn
+      font-weight 600 
+  +media(480px)
+    .btn
+      margin 0
+      padding: .7rem
+
+.logo.logo-mobile 
+  +media(1024px)
+    display: flex
+    align-items center
+    width: 20rem
+    align-self: center
+    img
+      +media(480px)
+        width 60%
+span.mobile
+  width 20px
+  height 20px
+  margin-left 20px
+  background: url('../img/arrow.svg') no-repeat center
+  background-size cover 
+  +media(480px)
+    margin-left 10px
+    
+.top-nav--item,
+.bottom-nav--item,
+.section-header
+  +media(1024px)
+    font-size 1.6rem
+    margin 2rem 0
+  
+.top-section 
+  +media(1024px)
+    position: relative
+    bottom: 0
+    text-align: center
+.section-1
+  +media(1024px)
+    padding-top 5rem
+    .img
+      display none
+.section-1
+  +media(960px)
+    background: transparent
+.intro
+  +media(1024px)
+    width 90%
+    margin 0 auto
+
++media(1280px)
+  .feedback
+    width 70%
+
++media(1024px)
+  .top-train
+    padding-top 10rem
+    top 2rem
+  .section-8
+    margin-bottom 0
+    section
+      margin 0
+      width 100%
+      top 0
+      position inherit
+    img
+      width 80%
+    .white
+      top 0
+      width 100%
+      position relative
+      padding 0 0 2rem
+  .comming_soon__icon
+    bottom -.8rem
+  footer
+    padding 0
+    .logo
+      width 50%
+      margin 0 auto
+      img
+        width 100%
+  .testers
+    width 100%
+  .testers--card--photo
+    width 9rem
+    margin-bottom: -12rem
+    margin-left: 3rem
+  .testers--card--description
+    &__left,
+    &__right
+      padding: 15rem 3rem 3rem
+      width: 100%
+      background: #1e2637
+      margin: 0
+      text-align center
+      span
+        float left
+        text-align left
+        padding 1rem 1.5rem
+      h3,
+      p
+        text-align left
+  .testers--card
+    flex-direction column
+    margin 3rem 0
+    &:nth-child(2n)
+      flex-direction column-reverse
+  .trains--card
+    position relative
+    margin 6rem 0 0
+  .trains--about__left,
+  .trains--about__right
+    display none
+  .trains--about__content
+    width 90%
+    margin 0 auto
+  article
+    &.description
+      display none
+  .section-2
+    padding 2rem 0 4rem
+    img
+      margin-bottom 5rem
+  h1,
+  h2,
+  h3,
+  p
+    text-align center
+  .top-nav--item,
+  .bottom-nav--item,
+  .section-header 
+    font-size: 1.3rem
+    margin: 0
+  .section-header__light,
+  .section-header__dark
+    text-align center
+  .block
+    min-height auto
+  picture
+    img
+      width 50%
+      margin 5rem 0 -.15rem
+  .wrapper
+    width 90%
+    flex-direction column
+  .semi
+    margin 0
+    width 100%  
+  .semi__right,
+  .semi__left
+    float none
+    img
+      margin 1rem 30% 2rem
+      width 40%
+
++media(768px)
+  .section-7
+    background transparent
+    .inner
+      width 100%
+  .faq 
+    width: 70%
+  .trains--item--header--about
+    p
+      font-size 1.3rem
+  .trains--item--header
+    .avatar
+      margin-right 1rem
+  .medium
+    margin 0
+    width 100%
+  p
+    font-size 1.1em
++media(480px)
+  footer
+    .logo
+      width 80%
+  .feedback
+    width 90%
+  .trains--item--header
+    flex-direction column
+  h1
+    font-size 3rem
+  p
+    font-size 1.5rem
+  .inner
+    width 90%
+    margin 0 auto
+    
+
++media(480px)
+  .faq 
+    width: 100%
+  .wrapper
+    width 95%
