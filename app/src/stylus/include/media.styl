@@ -1,21 +1,53 @@
-html
-  +media(1024px)
+span.mobile
+  width 20px
+  height 20px
+  margin-left 20px
+  background: url('../img/arrow.svg') no-repeat center
+  background-size cover 
+
++media(1280px)
+  .feedback
+    width 71%
+
++media(1024px)
+  .semi
+    padding 3rem 2.5rem 0 0.5rem
+    .btn 
+      width 100%
+  .section-3 
+    .semi
+      padding 3rem
+  .trains--about
+    width 85%
+    margin 0 auto
+  .trains--about__content 
+    img
+      width 80%
+      margin-left 10%
+      margin-top 0
+  .section-4
+    &.block
+      min-height 0
+  .section-5 
+    padding 10% 2rem 5rem
+    .btn
+      margin-top 2rem
+  .section-6 
+    padding: 5rem 0
+  .faq
+    width 90%
+    .ac
+      font-size 1.1rem
+  html
     font-size 16px
-  +media(768px)
-    font-size 12px
-
-.mobile
-  display none
-  +media(1024px)
+  .mobile
     display block
-    
-.navbar
-  +media(480px)
-    width 100%
-
-.top-nav,
-.bottom-nav
-  +media(1024px)
+  header
+    .btn
+      margin 0
+      padding: .8rem 1.2rem
+  .top-nav,
+  .bottom-nav
     flex-direction: column
     background: #fff
     position: fixed
@@ -24,72 +56,38 @@ html
     top 5.3rem
     left 0
     display none
-.hide
-  +media(1024px)
+  .hide
     display none
-header
-  +media(1024px)
+  .header
     background #fff !important
-    .btn
-      margin 0
-      padding: 1rem 2rem
-  +media(768px)
-    padding 0
-    .btn
-      font-weight 600 
-  +media(480px)
-    .btn
-      margin 0
-      padding: .7rem
-
-.logo.logo-mobile 
-  +media(1024px)
-    display: flex
-    align-items center
-    width: 20rem
-    align-self: center
-    img
-      +media(480px)
-        width 60%
-span.mobile
-  width 20px
-  height 20px
-  margin-left 20px
-  background: url('../img/arrow.svg') no-repeat center
-  background-size cover 
-  +media(480px)
-    margin-left 10px
-    
-.top-nav--item,
-.bottom-nav--item,
-.section-header
-  +media(1024px)
+  .logo
+    &.logo-mobile 
+      display: flex
+      align-items center
+      width: 20rem
+      align-self: center
+  .top-nav--item,
+  .bottom-nav--item,
+  .section-header
     font-size 1.6rem
     margin 2rem 0
-  
-.top-section 
-  +media(1024px)
+  .top-section
     position: relative
     bottom: 0
     text-align: center
-.section-1
-  +media(1024px)
+  .top-nav--item,
+  .bottom-nav--item,
+  .section-header
+    font-size 1.6rem
+    margin 2rem 0
+  .section-1
     padding-top 5rem
     .img
       display none
-.section-1
-  +media(960px)
-    background: transparent
-.intro
-  +media(1024px)
+  .intro
     width 90%
     margin 0 auto
 
-+media(1280px)
-  .feedback
-    width 70%
-
-+media(1024px)
   .top-train
     padding-top 10rem
     top 2rem
@@ -144,7 +142,7 @@ span.mobile
       flex-direction column-reverse
   .trains--card
     position relative
-    margin 6rem 0 0
+    margin 0
   .trains--about__left,
   .trains--about__right
     display none
@@ -188,15 +186,25 @@ span.mobile
     float none
     img
       margin 1rem 30% 2rem
-      width 40%
-
+      width 40% 
+      
 +media(768px)
+  html
+    font-size 12px
+  header
+    padding 0
+    .btn
+      font-weight 600 
+  .section-4
+    padding-bottom 5rem
   .section-7
     background transparent
     .inner
-      width 100%
-  .faq 
+      width 95%
+  .faq
     width: 70%
+  .trains--item--header
+    margin-top 2rem
   .trains--item--header--about
     p
       font-size 1.3rem
@@ -207,8 +215,18 @@ span.mobile
     margin 0
     width 100%
   p
-    font-size 1.1em
+    font-size 1.1em 
+    
 +media(480px)
+  .navbar
+    width 100%
+  header
+    .btn
+      margin 0
+      padding: .7rem
+  span
+    .mobile
+      margin-left 10px
   footer
     .logo
       width 80%
@@ -223,10 +241,9 @@ span.mobile
   .inner
     width 90%
     margin 0 auto
-    
-
-+media(480px)
   .faq 
     width: 100%
   .wrapper
     width 95%
+  .semi
+    padding 1rem

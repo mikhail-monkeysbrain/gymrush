@@ -13,23 +13,24 @@ body
 h1
 	font-size 4.5rem
 	color main-color
-	padding 2rem 0
 	font-weight 700
+	padding 0 .5rem
+	letter-spacing .05rem
 
 h2
-	font-size: 2.4rem
+	font-size: 2.7rem
 	color: red
-	letter-spacing: 0.3rem
+	letter-spacing: 0.225rem
 	font-weight 700
 	text-transform: uppercase
-	padding: 2rem 0
+	line-height 3.1rem
 	
 h3
-	font-size: 1.8rem
+	font-size: 2.25rem
 	color: red
 	letter-spacing: 0.1rem
 	font-weight 700
-	padding: 0 0 2rem
+	padding: 1rem 0
 
 a
 	text-decoration none
@@ -39,11 +40,14 @@ a
 
 p
 	font-family: 'Nunito Sans'
-	font-size 1.3rem
-	line-height 1.5
-	font-weight 400
+	font-size 1.2rem
+	font-size 1.27rem
+	line-height 1.8
 	color main-color
 	font-weight 600
+	letter-spacing .225rem
+	letter-spacing 0
+	line-height 1.65
 	
 .btn
 	color #fff
@@ -51,8 +55,8 @@ p
 	border 0
 	border-radius 3px
 	text-transform uppercase
-	margin 3rem 0
-	padding 1.6rem 3rem
+	margin 2.2rem .4rem
+	padding 1.3rem 2.6rem
 	outline none
 	letter-spacing: 0.15rem
 	cursor pointer
@@ -63,8 +67,9 @@ p
 			background red-hover
 	&__transparent
 		background transparent
-		color gray
+		color gray*1.3
 		border 1px solid
+		font-family: 'Montserrat'
 		&:hover
 			background: gray
 			color #fff
@@ -91,11 +96,19 @@ header
 	top 0
 	z-index 11
 
+section
+	position relative
+
+nav
+	.top-nav--item 
+    font-size: .73rem
+    letter-spacing: .2rem
+
 .navbar
 	height 5.3rem
-	width 90%
+	width 92%
 	padding 1rem
-	margin 0 auto
+	margin 0 3.5%
 	display -webkit-flex
 	display -moz-flex
 	display -ms-flex
@@ -105,7 +118,9 @@ header
 	align-items baseline
 	
 .logo
-	align-self flex-end
+	align-self center
+	img
+		width 11.5rem
 
 .top-nav, .bottom-nav
 	display -webkit-flex
@@ -114,10 +129,10 @@ header
 	display -o-flex
 	display flex
 	&--item
-		padding .7rem 2.1rem
-		font-size: .9rem
+		padding .45rem 2.2rem
+		font-size: .83rem
 		color: #2B364E
-		letter-spacing: 0.15rem
+		letter-spacing: 0.225rem
 		line-height: 2rem
 		text-transform: uppercase
 		cursor pointer
@@ -133,7 +148,7 @@ header
 				color red
 			
 .wrapper
-	width 70%
+	width 80%
 	margin 0 auto
 	display -webkit-flex
 	display -moz-flex
@@ -142,13 +157,16 @@ header
 	display flex
 	align-items flex-end
 	justify-content space-between
+	&__block
+		display block
 
 .block
-	min-height 120vh
+	min-height 115vh
 	height auto
 
 .intro
-	width 50%
+	width 40%
+	margin 1.1rem .5rem
 
 .section-1
 	background url('../img/gr-sec-1.png') 0 0 repeat fixed
@@ -163,8 +181,20 @@ header
 	background: url('../img/gr-sec-3.png') bottom repeat-y fixed
 	background-size cover
 
+.section-3
+	.semi
+		padding-top 9rem
+		padding-bottom 0
+		padding-left 0
+		&__right
+			padding-right 3rem
+	&.block
+		min-height 0
+
 .section-4
 	background-color transparent
+	&.block
+		min-height 125rem
 
 .section-5, .section-6, .section-7
 	background main-color
@@ -178,8 +208,26 @@ header
 	justify-content center
 	padding: 5rem 0
 	
+.section-5
+	padding-top 14.5%
+	padding-bottom 10rem
+	h2
+		letter-spacing 0.3rem
+		font-size 2.6rem
+	.btn
+		padding 1.3rem 8.5rem
+		margin-top 4.5rem
+		margin-bottom 1.4rem
+	.section-header__light
+		text-transform none
+		font-size .9rem
+		letter-spacing 0.07rem
+
 .section-6
-	background transparent
+	background #f1f2f4
+	padding 12.5rem
+	&.block
+		min-height 0
 	
 .section-7
 	background url('../img/gr-sec-1.png') 0 0 repeat fixed
@@ -204,7 +252,7 @@ header
 
 .top-section
 	position absolute
-	bottom 15vh
+	top 30%
 .top-train
 	position relative
 	top 10vh
@@ -226,19 +274,34 @@ header
 		img
 			width 100%
 		&__left, &__right
-			width 30%
-			align-self bottom
+			width 37%
+			margin-top 5rem
+		&__right
+			img
+				margin-top -15%
 		&__content
 			width 40%
+			p
+				width: 108%
+				margin-left: -6%
+				font-size: 1.225rem
+				line-height: 1.78
+				&:nth-child(1)
+					font-size .9rem
+					letter-spacing .1rem
+			img
+				width: 130%
+				margin-left: -20%
+				margin-top: 10%
 	&--card
-		center(80%)
+		center(82%)
 		position absolute
-		left 10%
-		bottom 5rem
+		left 9%
+		bottom 13%
 	&--item
 		&--header
 			background #fff
-			padding 2rem
+			padding 2rem 3rem 2.5rem 2rem
 			display -webkit-flex
 			display -moz-flex
 			display -ms-flex
@@ -246,7 +309,7 @@ header
 			display flex
 			align-items center
 			.avatar
-				width 30%
+				width 23%
 				border-radius 50%	
 				margin-right 2rem
 				flex-shrink 0
@@ -254,7 +317,7 @@ header
 				p
 					font-size 1rem
 		&--content
-			padding 2rem
+			padding 1.5rem 2rem 2.5rem
 			background: main-color
 			display -webkit-flex
 			display -moz-flex
@@ -263,21 +326,24 @@ header
 			display flex	
 			flex-wrap wrap
 			img
-				margin 1.5rem 35% 1rem
+				margin 2.5rem 25% 1rem 35%
 				width 30% !important
 				float none !important
 			p
-				color #fff
+				color #ccc*0.8
 				text-align center
 				font-size .8rem
+				text-align: center
+				font-size: 0.8rem
+				letter-spacing: 0.125rem
 
 .img
-	width 50%
-	min-height 120vh
+	width 40%
+	min-height 115vh
 	position absolute
 	background url('../img/section-1.png') right bottom no-repeat
 	background-size contain
-	right 15%
+	right 6%
 	top 0 
 	&__trainer
 		left 0
@@ -291,7 +357,8 @@ header
 		color #fff
 		cursor default
 		margin 0
-		padding 2rem 0
+		padding 0
+		padding-bottom 1.5rem
 		font-weight 600
 		&:hover
 			color #fff
@@ -311,7 +378,7 @@ header
 .semi
 	width 50%
 	position relative
-	margin 5rem 0
+	padding 12rem 2.5rem 12rem .5rem
 	&::after
 		content ""
 		clear both
@@ -319,17 +386,20 @@ header
 		float left
 		img
 			float left 
-			width 70%
+			width 55%
+			margin-left 7rem
 	&__right
 		float right
+		align-items baseline
 		img
 			float right 
-			width 70%
+			width 65%
+			margin-right 3rem
 			
 .medium
-	width 48%
+	width 46%
 	position relative
-	margin 5rem 0
+	margin 5rem 2%
 	&::after
 		content ""
 		clear both
@@ -345,7 +415,7 @@ header
 			width 70%
 			
 .top-arrow
-	size(3rem, 3rem)
+	height 2rem
 	margin 0 auto
 	border-radius 50%
 		
@@ -358,65 +428,67 @@ header
 	flex-direction column
 	p
 		text-align center
-		font-size 1rem
+		font-size .95rem
 		font-weight 400 
+		margin-top 2.5rem
+		line-height 1.7
+		letter-spacing .03rem
 		
 .testers
-	width 80%
+	width 85%
+	h3
+		padding .8rem 0 1.4rem
 	&--card
 		display -webkit-flex
 		display -moz-flex
 		display -ms-flex
 		display -o-flex
 		display flex
-		margin 7rem 0
+		margin 2rem 0 7rem
 		p
 			color #fff
+			line-height 1.6
+			font-size 1.3rem
 			&.red
-				color red
-				font-size 1rem
-				margin-bottom 2rem
+				color: #eb505c
+				font-size: .8rem
+				margin-bottom: 2rem
+				letter-spacing: 0.115rem
 		&--photo
 			width 33.33%
 			position relative
 			z-index 1
 			img
-				width 100%
+				width 101%
 		&--description__left
 			padding 3rem 3rem	0 8rem
 			width 66.66%
 			background: support-color
 			margin 3rem 3rem -3rem -3rem
 			span
-				font-weight 600
-				background: red
-				padding .8rem 4.5rem .8rem .8rem
-				font-size .8rem
-				color main-color
-				text-transform uppercase
-			p
-				font-size 1.3rem
-				line-height 1.2
+				background: #eb505c
+				padding: 0.6rem 1.1rem 0.6rem 0.8rem
+				font-size: 0.8rem
+				color: #2b364e
+				text-transform: uppercase
+				letter-spacing: 0.17rem
 		&--description__right
 			padding: 3rem 8rem 0rem 3rem
 			width: 66.66%
 			background: #1e2637
 			margin: 3rem -3rem -3rem 3rem
 			span
-				float right
-				text-align right
-				font-weight 600
-				background: red
-				padding .8rem .8rem .8rem 4.5rem
-				font-size .8rem
-				color main-color
-				text-transform uppercase
+				background: #eb505c
+				padding: 0.6rem .8rem 0.6rem 1.1rem 
+				font-size: 0.8rem
+				color: #2b364e
+				text-transform: uppercase
+				letter-spacing: 0.17rem
+				float: right
 			h3
 				text-align right
 			p
 				text-align right
-				font-size 1.3rem
-				line-height 1.2
 		&__left
 			margin-left 3rem
 		&__right
@@ -425,7 +497,8 @@ header
 		margin-top 2rem 
 		
 .faq
-	width 50%
+	width 70%
+	margin-top 3rem
 	ul
 		display -webkit-flex
 		display -moz-flex
@@ -434,18 +507,20 @@ header
 		display flex
 		justify-content center
 		align-items center
-		width 70%
+		width 50%
 		margin 0 auto
 		li
 			margin-bottom 2rem
+			width 50%
+			text-align center
 			a
-				text-transform uppercase
-				border-bottom .2rem solid transparent
-				color gray
-				transition animation
-				padding 1rem 2rem
-				font-size .8rem
-				font-weight 600
+				text-transform: uppercase
+				border-bottom: 0.2rem solid transparent
+				color: #878788
+				transition: all 0.5s ease
+				padding: 2rem 0rem
+				font-size: 0.8rem
+				letter-spacing: 0.18rem
 				&.active
 					color red
 					border-color red
@@ -467,42 +542,44 @@ header
 	  color: #555
 	  padding: 20px 10px
 	  margin-bottom: 10px
-	.ac_head
-		font-size 1rem
-		padding 1rem
-		cursor pointer
-	.ac_head::after
-	  content: '+'
-	  display: block
-	  width: 1rem
-	  height: 1rem
-	  float: right
-	  margin-top: 0
-	.ac_head.js_up::after
-	  content: '-' 
+	.ac
+		width 90%
+		margin .8rem auto
+		border-radius: 4px
+		font-size 1.3rem
+		font-family: 'Nunito Sans'
+		letter-spacing: 0.03rem
+		color #2B364D
+		&_head
+			padding: 1.5rem 1rem
+			cursor: pointer
+			line-height: 1.7
 	  
 .feedback
-	display -webkit-flex
-	display -moz-flex
-	display -ms-flex
-	display -o-flex
-	display flex
-	flex-direction column
-	width 50%
-	margin 4rem auto
-	padding 3rem 5rem
-	background #fff
-	box-shadow 0 0 5rem 0rem gray*1.5
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	flex-direction: column
+	width: 62%
+	margin: 4rem auto
+	padding: 3rem 5rem
+	background: #fff
+	box-shadow: -2rem 1rem 3rem -2rem #cbcbcc
+	box-sizing: border-box
+	border: 1px solid #f0f0f0
 	input
 		color gray
 		padding 1rem .5rem
 		margin-bottom 2rem
 		border 0
-		border-bottom 2px solid
+		border-bottom 1px solid #cbcbcc
 		outline none
 		transition animation
+		box-shadow 0px 0px 4px 0 #fff
 		&:hover
-			box-shadow -2px 5px 5px 0 gray*1.5
+			box-shadow 0px 0px 4px 0 #d5d5d5
 	.btn
 		margin 0
 		border 0
@@ -562,17 +639,17 @@ footer
 	position relative
 	font-size .8rem
 	&__icon
-		width 12em
-		height 1.3rem
+		width 13em
+		height 1rem
 		border 1px solid
 		position absolute
 		left 2rem
-		bottom -.1rem
+		bottom -.5rem
 		border-radius .65rem
 		text-transform uppercase
 		font-size .5rem
 		text-align center
-		line-height 2.2
+		line-height 1.5
 .table
 	display -webkit-flex
 	display -moz-flex
@@ -612,5 +689,7 @@ footer
 				display -o-flex
 				display flex
 				align-items center
+.mobile
+  display none
 
 @import "include/media"
