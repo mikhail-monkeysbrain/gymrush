@@ -1,0 +1,61 @@
+.__float-left {
+  float: left;
+}
+.__float-right {
+  float: right;
+}
+.__ta-center {
+  text-align: center;
+}
+.__ta-left {
+  text-align: left;
+}
+.__ta-right {
+  text-align: right;
+}
+.__ta-justify {
+  text-align: justify;
+}
+.__semi {
+  width: 50%;
+}
+.__full {
+  width: 100%;
+}
+.__font-light {
+  color: #fff;
+}
+.__font-dark {
+  color: main-color;
+}
+.__font-red {
+  color: #f00;
+}
+.__ttn {
+  text-transform: none;
+}
+.__td-underline {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid;
+}
+.__full {
+  width: 100%;
+}
+.__semi {
+  width: 50%;
+}
+.__large {
+  width: 66.66%;
+}
+.__small {
+  width: 33.33%;
+}
+.__medium {
+  width: 40%;
+}
+.__u-small {
+  width: 25%;
+}
+.clear {
+  clear: both;
+}
