@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Icn-arrow muted on dark bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M32,16 C32,7.16235797 24.8364219,0 16,0 C7.16357813,0 0,7.16235797 0,16 C0,24.8364219 7.16357813,32 16,32 C24.8364219,32 32,24.8364219 32,16 Z M16.0012202,2.05235038 C23.6918506,2.05235038 29.9488698,8.30936959 29.9488698,16 C29.9488698,23.6906304 23.6930067,29.9476496 16.0012202,29.9476496 C8.31058976,29.9476496 2.05357055,23.6906304 2.05357055,16 C2.05357055,8.30936959 8.31058976,2.05235038 16.0012202,2.05235038 Z M21.9381036,15.9699266 L23.7846412,14.123389 L16.0012202,6.33996797 L8.21901929,14.123389 L10.0655569,15.9699266 L14.4206782,11.6148052 L14.4206782,25.2614693 L17.5829823,25.2614693 L17.5829823,11.6148052 L21.9381036,15.9699266 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icn-arrow-muted-on-dark-bg" fill-rule="nonzero">
+            <g id="Combined-Shape">
+                <use fill="#2B364E" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill-opacity="0.700000048" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

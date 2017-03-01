@@ -169,15 +169,34 @@ nav
 	margin 1.1rem .5rem
 
 .section-1
-	background url('../img/gr-sec-1.png') 0 0 repeat fixed
-	padding-top 40vh
+	background url('../img/bg-1__layer-0.jpg') 0 0 repeat fixed
 	background-size cover
+	.depth-1
+		background url('../img/bg-1__layer-1.png') 0 0 repeat fixed
+		background-size cover
+		.depth-2
+			background url('../img/bg-1__layer-2.png') 0 0 repeat fixed
+			padding-top 40vh
+			background-size cover
 
 .section-2
-	background: url('../img/gr-sec-2.png') bottom repeat-y fixed
+	background: url('../img/bg-2__layer-0.jpg') bottom repeat-y fixed
 	background-size cover
+	.depth-2
+		background url('../img/bg-2__layer-1.png') 0 0 repeat fixed
+		background-size cover
 	
-.section-3, .section-8
+.section-3
+	background: url('../img/bg-1__layer-0.jpg') bottom repeat-y fixed
+	background-size cover
+	.depth-1
+		background url('../img/bg-1__layer-1.png') 0 0 repeat fixed
+		background-size cover
+		.depth-2
+			background url('../img/bg-1__layer-2.png') 0 0 repeat fixed
+			background-size cover
+	
+.section-8
 	background: url('../img/gr-sec-3.png') bottom repeat-y fixed
 	background-size cover
 
@@ -196,7 +215,7 @@ nav
 	&.block
 		min-height 125rem
 
-.section-5, .section-6, .section-7
+.section-5, .section-6, .section-7 .depth-2
 	background main-color
 	display -webkit-flex
 	display -moz-flex
@@ -230,11 +249,18 @@ nav
 		min-height 0
 	
 .section-7
-	background url('../img/gr-sec-1.png') 0 0 repeat fixed
+	padding 0
+	background url('../img/bg-1__layer-0.jpg') 0 0 repeat fixed
 	background-size cover
-	.inner
-		width 70%
-		text-align center
+	.depth-1
+		background url('../img/bg-1__layer-1.png') 0 0 repeat fixed
+		background-size cover
+		.depth-2
+			background url('../img/bg-1__layer-2.png') 0 0 repeat fixed
+			background-size cover
+			.inner
+				width 70%
+				text-align center
 
 .section-8
 	height 100%

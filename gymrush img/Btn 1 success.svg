@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="228px" height="56px" viewBox="0 0 228 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Btn 1 success</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="228" height="56" rx="3"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="16" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Btn-1-success">
+            <g id="Btn-ds" fill="black" fill-opacity="1">
+                <g id="BG">
+                    <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+            </g>
+            <rect id="BG" fill="#EB505C" x="0" y="0" width="228" height="56" rx="3"></rect>
+            <g id="Icn-check" transform="translate(102.000000, 16.000000)" fill-rule="nonzero" fill="#FFFFFF">
+                <path d="M12,0 L12,3.99840225e-16 C18.627551,3.99840225e-16 24,5.37244898 24,12 C24,18.627551 18.627551,24 12,24 C5.37334934,24 0,18.627551 0,12 C0,5.37244898 5.37244898,0 12,0 Z M18.0027011,7.71518607 L10.2965186,15.1872749 L7.5972389,12.4879952 C7.31632653,12.2070828 6.8607443,12.2070828 6.57893157,12.4879952 C6.29711885,12.7689076 6.29801921,13.2244898 6.57893157,13.5063025 L9.77971188,16.7070828 C9.92016807,16.847539 10.1047419,16.9177671 10.2884154,16.9177671 C10.4684874,16.9177671 10.6494598,16.8502401 10.7890156,16.7151861 L19.0039016,8.74879952 C19.2893157,8.4714886 19.2965186,8.01590636 19.020108,7.7304922 C18.7418968,7.44417767 18.2872149,7.43787515 18.0018007,7.71428571 L18.0027011,7.71518607 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

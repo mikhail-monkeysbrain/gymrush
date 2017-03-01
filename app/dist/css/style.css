@@ -250,15 +250,38 @@ nav .top-nav--item {
   margin: 1.1rem 0.5rem;
 }
 .section-1 {
-  background: url("../img/gr-sec-1.png") 0 0 repeat fixed;
+  background: url("../img/bg-1__layer-0.jpg") 0 0 repeat fixed;
+  background-size: cover;
+}
+.section-1 .depth-1 {
+  background: url("../img/bg-1__layer-1.png") 0 0 repeat fixed;
+  background-size: cover;
+}
+.section-1 .depth-1 .depth-2 {
+  background: url("../img/bg-1__layer-2.png") 0 0 repeat fixed;
   padding-top: 40vh;
   background-size: cover;
 }
 .section-2 {
-  background: url("../img/gr-sec-2.png") bottom repeat-y fixed;
+  background: url("../img/bg-2__layer-0.jpg") bottom repeat-y fixed;
   background-size: cover;
 }
-.section-3,
+.section-2 .depth-2 {
+  background: url("../img/bg-2__layer-1.png") 0 0 repeat fixed;
+  background-size: cover;
+}
+.section-3 {
+  background: url("../img/bg-1__layer-0.jpg") bottom repeat-y fixed;
+  background-size: cover;
+}
+.section-3 .depth-1 {
+  background: url("../img/bg-1__layer-1.png") 0 0 repeat fixed;
+  background-size: cover;
+}
+.section-3 .depth-1 .depth-2 {
+  background: url("../img/bg-1__layer-2.png") 0 0 repeat fixed;
+  background-size: cover;
+}
 .section-8 {
   background: url("../img/gr-sec-3.png") bottom repeat-y fixed;
   background-size: cover;
@@ -282,7 +305,7 @@ nav .top-nav--item {
 }
 .section-5,
 .section-6,
-.section-7 {
+.section-7 .depth-2 {
   background: #2b364e;
   display: -webkit-flex;
   display: -moz-flex;
@@ -320,10 +343,19 @@ nav .top-nav--item {
   min-height: 0;
 }
 .section-7 {
-  background: url("../img/gr-sec-1.png") 0 0 repeat fixed;
+  padding: 0;
+  background: url("../img/bg-1__layer-0.jpg") 0 0 repeat fixed;
   background-size: cover;
 }
-.section-7 .inner {
+.section-7 .depth-1 {
+  background: url("../img/bg-1__layer-1.png") 0 0 repeat fixed;
+  background-size: cover;
+}
+.section-7 .depth-1 .depth-2 {
+  background: url("../img/bg-1__layer-2.png") 0 0 repeat fixed;
+  background-size: cover;
+}
+.section-7 .depth-1 .depth-2 .inner {
   width: 70%;
   text-align: center;
 }
